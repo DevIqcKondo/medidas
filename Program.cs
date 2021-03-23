@@ -21,11 +21,8 @@ namespace medidas
             Console.WriteLine();
             c=(m*100);
             q=(m/1000);
-            Console.ForegroundColor=ConsoleColor.Red;
-            Console.WriteLine("Valor em centímetros= "+c+" cm.");
-            Console.ResetColor();
             Console.ForegroundColor=ConsoleColor.Yellow;
-            Console.WriteLine("Valor em quilômetros = "+q+" km. ");
+            Console.WriteLine(""+m+" metros é igual a "+q+"km e "+c+"cm. ");
             Console.ResetColor();
             Console.Beep();
         }
